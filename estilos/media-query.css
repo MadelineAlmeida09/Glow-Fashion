@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    header > nav > menu{
+        width: 90vw;
+        left: 50%;
+        right: 50%;
+        transform: translate(-5%, 20%);
+    }
+
+    iframe{
+        width: 95vw;
+    }
+}

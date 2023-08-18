@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+Body, html{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.158);
+    font-size: x-large;
+    color: #856886;
+    text-align: center;
+    width:50vw;
+    height: 50%;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(48%, 400%);   
+}
+@media screen and (max-width: 768px) {
+    section{font-size: larger;
+        text-align: center;
+        width:90vw;
+        height: 50%;
+        display: block;
+        left: 50%;
+        top: 50%;
+        transform: translate(5%, 400%);   }
+    
+}
