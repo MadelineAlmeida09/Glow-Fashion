@@ -11,4 +11,7 @@
     iframe{
         width: 95vw;
     }
+    footer{
+        float: bottom;
+    }
 }
